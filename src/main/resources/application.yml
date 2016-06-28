@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: ${jar.baseName}
+
+info:
+  version: ${jar.version}

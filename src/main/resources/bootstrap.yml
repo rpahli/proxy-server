@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: ${jar.baseName}
+  cloud:
+    config:
+      enabled: false
+    consul:
+      discovery:
+        prefer-ip-address: true
+info:
+  version: ${jar.version}
+
